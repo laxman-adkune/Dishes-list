@@ -1,0 +1,15 @@
+package com.fooddeliveryapp.entity;
+
+public class Dishes {
+    private Integer dishId;
+    private String dishName;
+    private String dishType;
+    private String dishImage;
+    private String dishDescription;
+    private Double dishPrice;
+
+
+}
+
+insert into restaurant_owner values (1,'laxman', 'adkune', 'Airoli', 8788783767, 'abc', 400001, 'Maharashtra');
+insert into dishes values(4,'dilicious thali','image.png','Thali',80,'Lunch');
